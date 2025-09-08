@@ -13,20 +13,37 @@
 <!--This body contains what will be shown on the webpage-->
 <!--Contains resources for how to build a webpage-->
 <body>
+  <!--One container for the header-->
+  <div class="container p-5 my-5 bg-dark text-white">
   <h1>Hello, GitHub!</h1>
   <p>This is my first web page using version control with Git and GitHub.</p>
+  </div>
 
+  <!--One container to hold the resources-->
+  <div class="container p-5 my-5 bg-primary text-black">
   <h2>RESOURCES</h2>
   <ul>
     <li>
-      <a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML Tutorial</a>
+      <a href="https://www.w3schools.com/html/default.asp" target="_blank" class="link-dark">HTML Tutorial</a>
     </li>
     <li>
-      <a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS Tutorial</a>
+      <a href="https://www.w3schools.com/css/default.asp" target="_blank" class="link-dark">CSS Tutorial</a>
     </li>
     <li>
-      <a href="https://www.w3schools.com/bootstrap5/index.php" target="_blank">Bootstrap 5 Tutorial</a>
+      <a href="https://www.w3schools.com/bootstrap5/index.php" target="_blank" class="link-dark">Bootstrap 5 Tutorial</a>
     </li>
   </ul>
+  </div>
+
+  <!--Started experimenting with the card, needs work-->
+  <div class="card" style="width: 18rem;">
+    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Sample Image">
+    <div class="card-body">
+        <h5 class="card-title">Card Title</h5>
+        <p class="card-text">This is a simple Bootstrap card.</p>
+        <a href="#" class="btn btn-primary">Learn More</a>
+    </div>
+</div>
+
 </body>
 </html>
