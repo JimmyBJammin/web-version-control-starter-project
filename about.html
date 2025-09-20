@@ -18,10 +18,25 @@
     <!-- Navbar gets injected here -->
     <div id="nav-placeholder"></div>
 
-    <!-- Place Main Content here -->
-    <div class="container">
+    <!-- "Jumbotron" aka webpage header -->
+    <div class="mt-4 p-5 my-5 bg-primary text-white rounded">
         <h1>This is the about page</h1>
         <p>This page will be used to tell you about the details behind the site</p>
+        <p></p>
+
+        <p>I added this as a Jumbotron, but since Jumbotron was discontinued in BS3, it's more of a work around.
+           I'll add two different components</p>
+    </div>
+
+    <!--This piece creates an alert to return home-->
+    <div class="alert alert-success alert-dismissible fade show">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        <strong>HEY!</strong> You have now accessed the about page, if this was done by mistake, return home <a href="index.html" class="alert-link">here.</a>
+    </div>
+
+    <!--Places the sugarskull image-->
+    <div class="containers">
+        <img class="img-fluid" src="Images/sugarskull.png" alt="Image of a sugarskull">
 
     </div>
 
